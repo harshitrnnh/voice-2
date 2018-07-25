@@ -1,0 +1,14 @@
+{
+  "name": "voice-2",
+  "version": "1.0.0",
+  "description": "voice-2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "harshit agrawal",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
