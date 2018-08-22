@@ -48,7 +48,7 @@ restService.post("/audio", function(req, res) {
   
   //else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/c415nl501yf4etn/anji-sentence-composite-4.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("weather")|| param.includes("temperature") || param.includes("Weather")){speech ="<speak><audio src=\"https://www.dropbox.com/s/c415nl501yf4etn/anji-sentence-composite-4.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  else if (param.includes("weather")|| param.includes("temperature") || param.includes("Weather")){speech ="<speak><audio src=\"https://www.dropbox.com/s/ccyknj6l7apx45p/anji-sentence-composite-5.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
   else if (param.includes("hotels")|| param.includes("hotel") || param.includes("Hotels") || param.includes("Hotels")){speech ="<speak><audio src=\"https://www.dropbox.com/s/55ag2ahi9ybx4mz/anji-sentence-composite-6%2B7.mp3?dl=1\"><desc></desc>Wonderful. Could you suggest some hotels to stay there?</audio></speak>";}
   
@@ -56,8 +56,7 @@ restService.post("/audio", function(req, res) {
   
   else if (param.includes("preparatory") || param.includes("Preparatory") || param.includes("predatory") || param.includes("Predatory") || param.includes("proprietary") || param.includes("property")  || param.includes("safety") || param.includes("list")){speech ="<speak><audio src=\"https://www.dropbox.com/s/s8t35abr9s797h4/anji-sentence-composite-9.mp3?dl=1\"><desc></desc>Awesome! Are there any specific preparatory safety tips i should remember Hal?</audio></speak>";}
   
-  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/201siiis6vb1tar/Didn%27t%20catch%20that-repeat-filler.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}
-//   switch (req.body.queryResult.parameters.statement_num) {
+  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/201siiis6vb1tar/Didn%27t%20catch%20that-repeat-filler.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}  switch (req.body.queryResult.parameters.statement_num) {
 //     //Speech Synthesis Markup Language 
 //     case "1":
 //       speech = 
