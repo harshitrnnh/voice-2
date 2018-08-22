@@ -56,7 +56,8 @@ restService.post("/audio", function(req, res) {
   
   else if (param.includes("preparatory") || param.includes("Preparatory") || param.includes("predatory") || param.includes("Predatory") || param.includes("proprietary") || param.includes("property")  || param.includes("safety") || param.includes("list")){speech ="<speak><audio src=\"https://www.dropbox.com/s/s8t35abr9s797h4/anji-sentence-composite-9.mp3?dl=1\"><desc></desc>Awesome! Are there any specific preparatory safety tips i should remember Hal?</audio></speak>";}
   
-  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/201siiis6vb1tar/Didn%27t%20catch%20that-repeat-filler.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}  switch (req.body.queryResult.parameters.statement_num) {
+  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/201siiis6vb1tar/Didn%27t%20catch%20that-repeat-filler.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}  
+  //switch (req.body.queryResult.parameters.statement_num) {
 //     //Speech Synthesis Markup Language 
 //     case "1":
 //       speech = 
