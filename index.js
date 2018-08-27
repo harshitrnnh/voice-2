@@ -44,7 +44,7 @@ restService.post("/audio", function(req, res) {
   
   else if (param.includes("seven") || param.includes("7") || param.includes("Seven")){speech ="<speak><audio src=\"https://www.dropbox.com/s/3y5p698gtz1by65/rishabh-sentence-composite-2.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/qazx4u26m8sv5jt/rishabh-sentence-composite-3.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  else if (param.includes("yes") || param.includes("no") || param.includes("sure") || param.includes("not") || param.includes("probably") || param.includes("maybe") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/qazx4u26m8sv5jt/rishabh-sentence-composite-3.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
   //else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/c415nl501yf4etn/anji-sentence-composite-4.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
