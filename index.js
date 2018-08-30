@@ -40,23 +40,23 @@ restService.post("/audio", function(req, res) {
   
   var speech = "";
   var param = req.body.queryResult.parameters.userText;
-  if (param.includes("august") || param.includes("August")){speech ="<speak><audio src=\"https://www.dropbox.com/s/5az198e8b8ksilv/kush-sentence-composite-1.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  if (param.includes("august") || param.includes("August")){speech ="<speak><audio src=\"https://www.dropbox.com/s/su7a4iik8vosx86/karthik-sentence-composite-1.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("seven") || param.includes("7") || param.includes("Seven")){speech ="<speak><audio src=\"https://www.dropbox.com/s/34mre74eifz06ve/kush-sentence-composite-2.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  else if (param.includes("seven") || param.includes("7") || param.includes("Seven")){speech ="<speak><audio src=\"https://www.dropbox.com/s/2i3qmi7tdmfvco6/karthik-sentence-composite-2.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/jg82ru81gd4nddj/kush-sentence-composite-3.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/z60lceussek9hk6/karthik-sentence-composite-3.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
   //else if (param.includes("yes") || param.includes("no") || param.includes("Yes") || param.includes("No")){speech ="<speak><audio src=\"https://www.dropbox.com/s/c415nl501yf4etn/anji-sentence-composite-4.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("weather")|| param.includes("temperature") || param.includes("Weather")){speech ="<speak><audio src=\"https://www.dropbox.com/s/u1ckzcpd3dxgri1/kush-sentence-composite-5.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
+  else if (param.includes("weather")|| param.includes("temperature") || param.includes("Weather")){speech ="<speak><audio src=\"https://www.dropbox.com/s/8h2w9dke86207fc/karthik-sentence-composite-5.mp3?dl=1\"><desc></desc>Sounds great! The weather next week in that area will be around 18 to 23 degrees, a perfect weather for a trek.</audio></speak>";}
   
-  else if (param.includes("hotels")|| param.includes("hotel") || param.includes("Hotels") || param.includes("Hotels")){speech ="<speak><audio src=\"https://www.dropbox.com/s/rwakl1mlhpurqtj/kush-sentence-composite-6.mp3?dl=1\"><desc></desc>Wonderful. Could you suggest some hotels to stay there?</audio></speak>";}
+  else if (param.includes("hotels")|| param.includes("hotel") || param.includes("Hotels") || param.includes("Hotels")){speech ="<speak><audio src=\"https://www.dropbox.com/s/njsq1z948ad2swb/karthik-sentence-composite-6.mp3?dl=1\"><desc></desc>Wonderful. Could you suggest some hotels to stay there?</audio></speak>";}
   
-  else if (param.includes("essentials")|| param.includes("Essentials") || param.includes("list") || param.includes("lists") || param.includes("essential") || param.includes("Essential")){speech ="<speak><audio src=\"https://www.dropbox.com/s/rf8gjdkmdosx0j8/kush-sentence-composite-7.mp3?dl=1\"><desc></desc>Thanks. There's a few essential items i'll have to carry. Could you add knife, flashlight, jacket to the essentials list?</audio></speak>";}
+  else if (param.includes("essentials")|| param.includes("Essentials") || param.includes("list") || param.includes("lists") || param.includes("essential") || param.includes("Essential")){speech ="<speak><audio src=\"https://www.dropbox.com/s/3x2pja87895fmxa/karthik-sentence-composite-7.mp3?dl=1\"><desc></desc>Thanks. There's a few essential items i'll have to carry. Could you add knife, flashlight, jacket to the essentials list?</audio></speak>";}
   
-  else if (param.includes("preparatory") || param.includes("Preparatory") || param.includes("predatory") || param.includes("Predatory") || param.includes("proprietary") || param.includes("property")  || param.includes("safety") || param.includes("list")){speech ="<speak><audio src=\"https://www.dropbox.com/s/1nnpjbet5urod7o/kush-sentence-composite-8.mp3?dl=1\"><desc></desc>Awesome! Are there any specific preparatory safety tips i should remember Hal?</audio></speak>";}
+  else if (param.includes("preparatory") || param.includes("Preparatory") || param.includes("predatory") || param.includes("Predatory") || param.includes("proprietary") || param.includes("property")  || param.includes("safety") || param.includes("list")){speech ="<speak><audio src=\"https://www.dropbox.com/s/ujctfm4trp8yv0a/karthik-sentence-composite-8.mp3?dl=1\"><desc></desc>Awesome! Are there any specific preparatory safety tips i should remember Hal?</audio></speak>";}
   
-  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/nrnb1939m1hrm5x/kush-sentence-composite-9.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}  
+  else{speech ="<speak><audio src=\"https://www.dropbox.com/s/zvlisbyk3ihxt2h/karthik-sentence-composite-9.mp3?dl=1\"><desc></desc>Sorry, i didn't hear that. Could you say that again?</audio></speak>";}  
   //switch (req.body.queryResult.parameters.statement_num) {
 //     //Speech Synthesis Markup Language 
 //     case "1":
